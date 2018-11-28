@@ -3,7 +3,7 @@
 
 const button = document.querySelector('#butone')
 
-button.addEventListner('click', (event) => {
+button.addEventListner('click', function(event) => {
   const div = document.querySelector('#total')
   div.classList.add('nas')
   div.classList.remove('jay')
